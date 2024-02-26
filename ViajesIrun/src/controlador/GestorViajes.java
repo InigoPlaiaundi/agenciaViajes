@@ -1,9 +1,7 @@
 package controlador;
 
+import vista.Menu;
+
 public class GestorViajes {
 
-	public static void run() {
-		
-		
-	}
 }
