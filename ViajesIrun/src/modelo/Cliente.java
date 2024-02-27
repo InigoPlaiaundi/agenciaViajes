@@ -2,6 +2,7 @@ package modelo;
 
 public class Cliente {
 
+	
 	private int dni;
 	private String nombre;
 	private String apellido;
@@ -38,6 +39,12 @@ public class Cliente {
 	}
 	public void setLocalidad(String localidad) {
 		this.localidad = localidad;
+	}
+	
+	@Override
+	public String toString() {
+		return "Cliente [dni=" + dni + ", nombre=" + nombre + ", apellido=" + apellido + ", direccion=" + direccion
+				+ ", localidad=" + localidad + "]";
 	}
 	
 	
